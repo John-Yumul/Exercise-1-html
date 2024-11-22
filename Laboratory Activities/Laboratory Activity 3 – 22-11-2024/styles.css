@@ -5,53 +5,53 @@
     box-sizing: border-box;
   }
   
-  /* Body Styling */
+
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f7f9fc; /* Light Grayish Blue */
-    color: #333; /* Dark Gray */
+    background-color: #f7f9fc; 
+    color: #333; 
     line-height: 1.6;
     padding: 20px;
   }
   
-  /* Header Styling */
+
   h2 {
-    color: #2d3748; /* Charcoal */
+    color: #2d3748; 
     text-align: center;
     margin-bottom: 20px;
   }
   
-  /* Textarea Styling */
+
   textarea {
     width: 100%;
-    border: 1px solid #cbd5e0; /* Light Gray */
+    border: 1px solid #cbd5e0; 
     border-radius: 8px;
     padding: 15px;
     font-size: 16px;
     resize: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    background-color: #ffffff; /* White */
-    color: #1a202c; /* Charcoal */
+    background-color: #ffffff; 
+    color: #1a202c; 
   }
   
-  /* Counter Div Styling */
+
   #wordcount, #sentenceCount {
     font-size: 18px;
     margin: 10px 0;
     padding: 10px 15px;
-    background-color: #edf2f7; /* Pale Blue */
-    border: 1px solid #cbd5e0; /* Light Gray */
+    background-color: #edf2f7;
+    border: 1px solid #cbd5e0; 
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  /* Hover Effect for Counter Divs */
+
   #wordcount:hover, #sentenceCount:hover {
-    background-color: #e2e8f0; /* Slightly Darker Pale Blue */
+    background-color: #e2e8f0;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     textarea {
       font-size: 14px;
